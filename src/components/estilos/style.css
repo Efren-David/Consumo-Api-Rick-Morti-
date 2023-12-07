@@ -1,0 +1,114 @@
+
+body{
+    background-color: #21232A;
+    color:  whitesmoke;
+    font-family: Helvetica;
+    font-size: 1.3rem;
+    padding: 100px;
+
+}
+
+button {
+  border: none;
+  color: #c9c7c7;
+  background-image: linear-gradient(30deg, #302f46, #4ce3f7);
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+ }
+ 
+ button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+ }
+ 
+ @keyframes pulse512 {
+  0% {
+   box-shadow: 0 0 0 0 #05bada66;
+  }
+ 
+  70% {
+   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+ 
+  100% {
+   box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+ }
+
+
+
+
+
+ 
+ .miInput {
+  border: 2px solid transparent;
+  width: 15em;
+  height: 2.5em;
+  padding-left: 0.8em;
+  outline: none;
+  overflow: hidden;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.miInput:hover,
+.miInput:focus {
+  border: 2px solid #4A9DEC;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: white;
+}
+
+
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dinosaur {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.5s;
+
+
+
+
+
+  border-radius: 50px;
+  background: #e54034;
+  box-shadow:  20px 20px 60px #c3362c,
+               -20px -20px 60px #ff4a3c;
+}
+
+.jump {
+  transform: translateY(-50px);
+}
+
+
+img{
+  max-width: 100%;
+  height: max-content;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+
+}
+.texto-morty{
+  text-align: center;
+
+}
+
+.text-poke{
+  text-align: center;
+}
