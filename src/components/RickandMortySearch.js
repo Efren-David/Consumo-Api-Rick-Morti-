@@ -53,6 +53,7 @@ return (
              ></input>
         </label>
         <button onClick={handleSearchClick}>Buscar</button> <button onClick={limpiarCampo}>Limpiar</button>
+        
         {RickAndMortyData && (
             <div>
               <br/>
@@ -65,9 +66,11 @@ return (
                 <p>Especie: {RickAndMortyData.species}</p>
                 <p>Gender: {RickAndMortyData.gender}</p>
                 <p>Origen: {RickAndMortyData.origin.name}</p>
-                <p>Location: {RickAndMortyData.location.name}</p>            
+                <p>Location: {RickAndMortyData.location.name}</p>  
+                        
                 </div>
-            </div>     
+            </div>   
+             
             )}
         <br></br>    
     </div>
